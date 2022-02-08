@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* este combinador, indica que el estilo debe aplicarse a la etiqueta adyacente a la primera,
+ es decir, que tienen que estar en el mimso nivel, no aplica si esta etiqueta esta dentro de la primera */
+.adjacentSiblings h2 + p {
+  color: red;
+}
+/* todo elemento b al nivel del elemento a tendra el estilo, aunque no este adyacente  alt 126*/
+.generalSiblings h2 ~ p {
+  color: blueviolet;
+}
+/* todo elemento b que este dentro de a de forma directa, y unicamente al siguiente nivel */
+.child div > p {
+  color: green;
+}
+/* todo elemento b que este dentro de a sin importar el nivel */
+.descendant p {
+  color: hotpink;
+}

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  /* la propiedad "inherit" le idica al navegador que debe de heredar 
+  esta propiedad del elemento padsre mas cercano que contenga dicha propiedad */
+  font-size: inherit;
+}

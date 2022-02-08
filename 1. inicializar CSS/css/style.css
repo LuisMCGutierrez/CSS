@@ -1,0 +1,13 @@
+main {
+  background-color: yellow;
+}
+/* class */
+.parrafo {
+  font-size: larger;
+  color: blueviolet;
+}
+/* id */
+#parrafo2 {
+  font-size: 25px;
+  color: green;
+}

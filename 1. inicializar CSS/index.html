@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inizializar CSS</title>
+        <!-- esta forma es la correcta para importar css, es la mejor practica -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- se utiliza para incrtustar directamente css en el DOM, se utiliza cuando el css es pequeño -->
+        <style>
+            article {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <section>
+                <article>
+                    <p class="parrafo">Soy un texto</p>
+                    <p id="parrafo2">Soy un texto</p>
+                </article>
+            </section>
+            <!-- este css aplicado como atributo, se le llama estilo embebido,
+            se desea que esta forma de llamar css se evite, ya que el css embebido prioriza sobre los demas, 
+            es decir que cambia todo el css general de la estructura -->
+            <p style="color: aqua;">Soy un Texto</p>
+            
+        </main>
+    <footer></footer>
+    </body>
+</html>
+

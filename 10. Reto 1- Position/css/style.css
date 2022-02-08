@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.song {
+  position: relative;
+  left: 25%;
+  top: 20px;
+  font-size: 2rem;
+  width: 400px;
+}
+.discoImg {
+  position: relative;
+  top: 20px;
+  left: 30%;
+}
+.discoImg figure img {
+  width: 150px;
+  border-radius: 10px;
+}
+.lyrics {
+  background-color: darkgray;
+  border-radius: 70px;
+  padding: 70px 40px 70px 50px;
+  border: 1px black solid;
+}
+.song .songData {
+  background-color: darkcyan;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  left: 30%;
+  top: 20px;
+  border: 1px black solid;
+}
+
+.lyrics p {
+  width: 300px;
+  font-size: 1.5rem;
+}

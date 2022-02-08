@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.parent {
+  border: 2px black dotted;
+  display: inline-block;
+}
+.box {
+  background-color: red;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+/* el elemento puede moverse conservando su posicionamiento en el orden ded los elementos */
+#one {
+  position: relative;
+  top: 15px;
+}
+/* absolute mueve el elemento sobre todos los demas, perdiendo su posicionamiento pero conservando sus coordenadas */
+#three {
+  position: absolute;
+  background-color: blue;
+  top: 50px;
+  left: 50px;
+}

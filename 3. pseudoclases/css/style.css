@@ -1,0 +1,34 @@
+.mainNav {
+  /* quita los bullets the una lista no ordenada */
+  list-style: none;
+  margin-top: 10px;
+  background-color: gray;
+  padding-left: 0;
+}
+.mainNav__item {
+  display: inline-block;
+}
+.mainNav__item a {
+  color: black;
+  padding: 5px;
+  background-color: red;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* ejemplo de pseudoclase :hover, esta indica cuando el mouse pasa por encima del elemento */
+.mainNav__item a:hover {
+  color: tomato;
+  background-color: green;
+}
+/* ejemplo de pseudoclase :active, accion referida a cuando el elemento es acvtivado con un clic por ejemplo */
+.mainNav__item a:active {
+  background-color: blue;
+  color: white;
+}
+/* ejemplpo de pseudoelemento ::after, sirve para colocar algo despues del elemento al cual se es señalado  */
+.mainNav__item a::after {
+  content: " |";
+}
+.mainNav__item a::before {
+  content: "| ";
+}
